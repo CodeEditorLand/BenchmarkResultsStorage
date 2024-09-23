@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 1726841408766,
+  "lastUpdate": 1727095082505,
   "repoUrl": "https://github.com/rolldown/rolldown",
   "entries": {
     "Benchmark": [
@@ -41867,6 +41867,546 @@
           {
             "name": "rome-ts-sourcemap (default)",
             "value": "194.82",
+            "unit": "ms / ops"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "7086cmd@gmail.com",
+            "name": "Ethan Goh",
+            "username": "7086cmd"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "00e6edd1f3d6eef0f148524c985aa590f026b1f8",
+          "message": "feat: support `css` module type in dataurl. (#2272)\n\nDue to the absence of bundle CSS support, the availability of ESbuild\ntests remains undefined.\n\nLet’s remove the unused functionality in `base64.rs`.",
+          "timestamp": "2024-09-22T12:58:30Z",
+          "tree_id": "f6c9d8ade3f634ad9d48898752f25925bda6a5b9",
+          "url": "https://github.com/rolldown/rolldown/commit/00e6edd1f3d6eef0f148524c985aa590f026b1f8"
+        },
+        "date": 1727010737882,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "threejs10x (default)",
+            "value": "376.12",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-sourcemap (default)",
+            "value": "580.77",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify (default)",
+            "value": "1011.18",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify-sourcemap (default)",
+            "value": "1446.70",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts (default)",
+            "value": "129.84",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts-sourcemap (default)",
+            "value": "189.63",
+            "unit": "ms / ops"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "Yunfei He",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bb4ff52a7c76353428bdfbc197d6e866fa242c1d",
+          "message": "refactor(rust): wrap ecma-related fields (#2275)\n\n<!-- Thank you for contributing! -->\n\n### Description\n\nWe need to mark `ecma_view` optional in the future, so we need to move\nall related fields to `ecma_view` first.\n\n<!-- Please insert your description here and provide especially info\nabout the \"what\" this PR is solving -->",
+          "timestamp": "2024-09-22T16:01:18Z",
+          "tree_id": "37edb1149ddbb9b23cd6983440ec72e68ecb5c0d",
+          "url": "https://github.com/rolldown/rolldown/commit/bb4ff52a7c76353428bdfbc197d6e866fa242c1d"
+        },
+        "date": 1727021705910,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "threejs10x (default)",
+            "value": "388.75",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-sourcemap (default)",
+            "value": "595.06",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify (default)",
+            "value": "1061.38",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify-sourcemap (default)",
+            "value": "1503.94",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts (default)",
+            "value": "132.22",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts-sourcemap (default)",
+            "value": "191.23",
+            "unit": "ms / ops"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "Yunfei He",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fb639e49c8e013abb241dbd7682f5145659bcfba",
+          "message": "chore(rust): change `EcmaModule` to `NormalModule` (#2276)\n\n<!-- Thank you for contributing! -->\n\n### Description\n\nDue to the responsibility changed, `NormalModule` is more proper than\n`EcmaModule`.\n\n<!-- Please insert your description here and provide especially info\nabout the \"what\" this PR is solving -->",
+          "timestamp": "2024-09-22T16:23:41Z",
+          "tree_id": "1df51533f5a7df642366b21d636aecf3111c1e05",
+          "url": "https://github.com/rolldown/rolldown/commit/fb639e49c8e013abb241dbd7682f5145659bcfba"
+        },
+        "date": 1727023113831,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "threejs10x (default)",
+            "value": "376.23",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-sourcemap (default)",
+            "value": "571.74",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify (default)",
+            "value": "975.43",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify-sourcemap (default)",
+            "value": "1395.43",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts (default)",
+            "value": "126.92",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts-sourcemap (default)",
+            "value": "182.78",
+            "unit": "ms / ops"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c5d117bfe87210fe2cd2a09a08ceee700da3d995",
+          "message": "chore: esbuild diff tool (#2278)\n\n<!-- Thank you for contributing! -->\n\n## Description\n1. this is esbuild diff tool part one, only compare snapshots between\n`esbuild` and `rolldown`, and generate corresponding `${category}.md`,\nit will considering all diff as failed for now.\n2. you could ignore `esbuild-snapshots/**` it is copy from `esbuild`\nrepo.\n### TODO\n1. ast rewrite tool, rewrite known issues that did not affect\nsemantic(like will convert `console.log(xxx)` to `assert(xxx, 11`), etc\n3. custom bypass tool, some diff don't have patterns that need to be\nbypassed manually.\n4. Generate diff for each testcase.\n<!-- Please insert your description here and provide especially info\nabout the \"what\" this PR is solving -->",
+          "timestamp": "2024-09-22T16:44:09Z",
+          "tree_id": "ce6122cd9e865c8c00f1ac72562f36d85b5913e0",
+          "url": "https://github.com/rolldown/rolldown/commit/c5d117bfe87210fe2cd2a09a08ceee700da3d995"
+        },
+        "date": 1727024325887,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "threejs10x (default)",
+            "value": "378.46",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-sourcemap (default)",
+            "value": "579.70",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify (default)",
+            "value": "973.77",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify-sourcemap (default)",
+            "value": "1399.02",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts (default)",
+            "value": "128.77",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts-sourcemap (default)",
+            "value": "188.12",
+            "unit": "ms / ops"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "16653c29bedbff6c6b11bbc6f054ec911f06dab2",
+          "message": "chore(deps): update rust crates (#2279)\n\nThis PR contains the following updates:\n\n| Package | Type | Update | Change |\n|---|---|---|---|\n| [criterion2](https://bheisler.github.io/criterion.rs/book/index.html)\n([source](https://redirect.github.com/Boshen/criterion2.rs)) |\ndependencies | patch | `1.1.0` -> `1.1.1` |\n| [jsonschema](https://redirect.github.com/Stranger6667/jsonschema-rs) |\nworkspace.dependencies | minor | `0.19.0` -> `0.20.0` |\n| [simdutf8](https://redirect.github.com/rusticstuff/simdutf8) |\nworkspace.dependencies | patch | `0.1.4` -> `0.1.5` |\n\n---\n\n### Release Notes\n\n<details>\n<summary>Boshen/criterion2.rs (criterion2)</summary>\n\n###\n[`v1.1.1`](https://redirect.github.com/Boshen/criterion2.rs/blob/HEAD/CHANGELOG.md#111---2024-09-23)\n\n[Compare\nSource](https://redirect.github.com/Boshen/criterion2.rs/compare/v1.1.0...v1.1.1)\n\n##### Other\n\n-   *(renovate)* bump crates\n- *(deps)* update rust crates\n([#&#8203;56](https://redirect.github.com/Boshen/criterion2.rs/pull/56))\n- *(deps)* update dependency rust to v1.81.0\n([#&#8203;55](https://redirect.github.com/Boshen/criterion2.rs/pull/55))\n-   rust v1.80.1\n\n</details>\n\n<details>\n<summary>Stranger6667/jsonschema-rs (jsonschema)</summary>\n\n###\n[`v0.20.0`](https://redirect.github.com/Stranger6667/jsonschema-rs/blob/HEAD/CHANGELOG.md#0200---2024-09-18)\n\n**Important:** This release includes several deprecations and renames.\nWhile backward compatibility is maintained for now, users are encouraged\nto update their code. See the [Migration Guide](MIGRATION.md) for\ndetails on transitioning to the new API.\n\n##### Added\n\n-   New draft-specific modules for easier version-targeted validation:\n    -   `jsonschema::draft4`\n    -   `jsonschema::draft6`\n    -   `jsonschema::draft7`\n    -   `jsonschema::draft201909`\n    -   `jsonschema::draft202012`\nEach module provides `new()`, `is_valid()`, and `options()` functions.\n- `jsonschema::options()` function as a shortcut for\n`jsonschema::Validator::options()`, that allows for customization of the\nvalidation process.\n\n##### Changed\n\n-   Make `Debug` implementation for `SchemaNode` opaque.\n- Make `jsonschema::validator_for` and related functions return\n`ValidationError<'static>` in their `Err` variant.\nThis change makes possible to use the `?` operator to return errors from\nfunctions where the input schema is defined.\n\n##### Deprecated\n\n-   Rename `CompilationOptions` to `ValidationOptions` for clarity.\n- Rename `JSONSchema` to `Validator` for clarity.\n[#&#8203;424](https://redirect.github.com/Stranger6667/jsonschema-rs/issues/424)\n- Rename `JSONPointer` to `JsonPointer` for consistency with naming\nconventions.\n[#&#8203;424](https://redirect.github.com/Stranger6667/jsonschema-rs/issues/424)\n-   Rename `jsonschema::compile` to `jsonschema::validator_for`.\n-   Rename `CompilationOptions::compile` to `ValidationOptions::build`.\n\nOld names are retained for backward compatibility but will be removed in\na future release.\n\n##### Fixed\n\n- Location-independent references in remote schemas on drafts 4, 6, and\n7.\n\n</details>\n\n<details>\n<summary>rusticstuff/simdutf8 (simdutf8)</summary>\n\n###\n[`v0.1.5`](https://redirect.github.com/rusticstuff/simdutf8/blob/HEAD/CHANGELOG.md#015---2024-09-22)\n\n[Compare\nSource](https://redirect.github.com/rusticstuff/simdutf8/compare/v0.1.4...v0.1.5)\n\n##### Bug fixes\n\n- Fix Undefined Behavior in WebAssembly SIMD128\n([#&#8203;86](https://redirect.github.com/rusticstuff/simdutf8/issues/86))\n(thanks [@&#8203;CryZe](https://redirect.github.com/CryZe))\n- Documentation and clippy fixes (thanks\n[@&#8203;rtfeldman](https://redirect.github.com/rtfeldman),\n[@&#8203;jqnatividad](https://redirect.github.com/jqnatividad),\n[@&#8203;rhysd](https://redirect.github.com/rhysd))\n\n##### Performance\n\n- WASM: Don't use u8x16\\_bitmask for ASCII Check\n([#&#8203;79](https://redirect.github.com/rusticstuff/simdutf8/issues/79))\n(thanks [@&#8203;CryZe](https://redirect.github.com/CryZe))\n\n</details>\n\n---\n\n### Configuration\n\n📅 **Schedule**: Branch creation - \"before 10am on monday\" in timezone\nAsia/Shanghai, Automerge - At any time (no schedule defined).\n\n🚦 **Automerge**: Enabled.\n\n♻ **Rebasing**: Whenever PR is behind base branch, or you tick the\nrebase/retry checkbox.\n\n👻 **Immortal**: This PR will be recreated if closed unmerged. Get\n[config\nhelp](https://redirect.github.com/renovatebot/renovate/discussions) if\nthat's undesired.\n\n---\n\n- [ ] <!-- rebase-check -->If you want to rebase/retry this PR, check\nthis box\n\n---\n\nThis PR was generated by [Mend Renovate](https://mend.io/renovate/).\nView the [repository job\nlog](https://developer.mend.io/github/rolldown/rolldown).\n\n<!--renovate-debug:eyJjcmVhdGVkSW5WZXIiOiIzOC44MC4wIiwidXBkYXRlZEluVmVyIjoiMzguODAuMCIsInRhcmdldEJyYW5jaCI6Im1haW4iLCJsYWJlbHMiOltdfQ==-->\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2024-09-23T04:00:40Z",
+          "tree_id": "a245ced71bb411a2468c9c973918a658b2b0a393",
+          "url": "https://github.com/rolldown/rolldown/commit/16653c29bedbff6c6b11bbc6f054ec911f06dab2"
+        },
+        "date": 1727064904828,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "threejs10x (default)",
+            "value": "373.00",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-sourcemap (default)",
+            "value": "582.03",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify (default)",
+            "value": "996.13",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify-sourcemap (default)",
+            "value": "1419.73",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts (default)",
+            "value": "131.56",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts-sourcemap (default)",
+            "value": "185.07",
+            "unit": "ms / ops"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cb1dcdbec847f663c67dc1c9ea759558bf2b2484",
+          "message": "chore(esbuild-diff): very basic ast rewrite (#2281)\n\n<!-- Thank you for contributing! -->\n\n### Description\n\n<!-- Please insert your description here and provide especially info\nabout the \"what\" this PR is solving -->",
+          "timestamp": "2024-09-23T06:59:19Z",
+          "tree_id": "fbf292119bd4bbe6339bd996163f22211d6778c1",
+          "url": "https://github.com/rolldown/rolldown/commit/cb1dcdbec847f663c67dc1c9ea759558bf2b2484"
+        },
+        "date": 1727075611104,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "threejs10x (default)",
+            "value": "378.18",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-sourcemap (default)",
+            "value": "586.19",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify (default)",
+            "value": "1013.63",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify-sourcemap (default)",
+            "value": "1452.05",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts (default)",
+            "value": "130.91",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts-sourcemap (default)",
+            "value": "187.52",
+            "unit": "ms / ops"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "Yunfei He",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c56991c0a1ea8fec5c2e6de3c1b5496ebbd6f486",
+          "message": "feat(node/experimental): add `disableLiveBindings` option (#2282)\n\n<!-- Thank you for contributing! -->\n\n### Description\n\n<!-- Please insert your description here and provide especially info\nabout the \"what\" this PR is solving -->",
+          "timestamp": "2024-09-23T10:03:54Z",
+          "tree_id": "ef03a125fe39c225ad17a6f0172617688c5679cc",
+          "url": "https://github.com/rolldown/rolldown/commit/c56991c0a1ea8fec5c2e6de3c1b5496ebbd6f486"
+        },
+        "date": 1727086694806,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "threejs10x (default)",
+            "value": "385.75",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-sourcemap (default)",
+            "value": "597.46",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify (default)",
+            "value": "1040.28",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify-sourcemap (default)",
+            "value": "1468.92",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts (default)",
+            "value": "131.34",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts-sourcemap (default)",
+            "value": "190.96",
+            "unit": "ms / ops"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "Yunfei He",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c85538e8044a69c2c29a52b9b8c355af5369fc64",
+          "message": "feat(cjs/output): generate proper property access pattern for exports (#2283)\n\n<!-- Thank you for contributing! -->\n\n### Description\n\n<!-- Please insert your description here and provide especially info\nabout the \"what\" this PR is solving -->",
+          "timestamp": "2024-09-23T10:26:25Z",
+          "tree_id": "61327f34f23766996f17b1410e7cd28f864779ae",
+          "url": "https://github.com/rolldown/rolldown/commit/c85538e8044a69c2c29a52b9b8c355af5369fc64"
+        },
+        "date": 1727088050500,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "threejs10x (default)",
+            "value": "376.37",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-sourcemap (default)",
+            "value": "574.54",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify (default)",
+            "value": "976.63",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify-sourcemap (default)",
+            "value": "1411.44",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts (default)",
+            "value": "127.42",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts-sourcemap (default)",
+            "value": "183.50",
+            "unit": "ms / ops"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b556e7715eac0bf1d30caf2fd83ecf8ae6d65b3a",
+          "message": "chore(esbuild_diff): update diff for each testcase (#2284)\n\n<!-- Thank you for contributing! -->\n\n### Description\n1. basic diff generation, needs more ast rewite, and bypass.\n<!-- Please insert your description here and provide especially info\nabout the \"what\" this PR is solving -->",
+          "timestamp": "2024-09-23T11:03:00Z",
+          "tree_id": "c6590a5b2b2302a95bb0baea9e8924a840df7196",
+          "url": "https://github.com/rolldown/rolldown/commit/b556e7715eac0bf1d30caf2fd83ecf8ae6d65b3a"
+        },
+        "date": 1727090267183,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "threejs10x (default)",
+            "value": "371.08",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-sourcemap (default)",
+            "value": "566.49",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify (default)",
+            "value": "972.38",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify-sourcemap (default)",
+            "value": "1389.52",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts (default)",
+            "value": "128.62",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts-sourcemap (default)",
+            "value": "183.22",
+            "unit": "ms / ops"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "930d1bcaf17c26f9813ea53bc7b494a19a408f71",
+          "message": "feat: align with `repr_name` with esbuild (#2285)\n\n<!-- Thank you for contributing! -->\n\n### Description\n1. just a `repr_name` renaming, and we have discussed in dc, so skip\nreview\n2. rename `_ns` to `_exports`\n<!-- Please insert your description here and provide especially info\nabout the \"what\" this PR is solving -->",
+          "timestamp": "2024-09-23T12:23:18Z",
+          "tree_id": "b7f4c45dccc934f3c71307990bf67b0b66e85881",
+          "url": "https://github.com/rolldown/rolldown/commit/930d1bcaf17c26f9813ea53bc7b494a19a408f71"
+        },
+        "date": 1727095082491,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "threejs10x (default)",
+            "value": "393.45",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-sourcemap (default)",
+            "value": "600.41",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify (default)",
+            "value": "1016.24",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify-sourcemap (default)",
+            "value": "1441.30",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts (default)",
+            "value": "129.16",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts-sourcemap (default)",
+            "value": "191.31",
             "unit": "ms / ops"
           }
         ]
