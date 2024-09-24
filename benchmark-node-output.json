@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 1727095082505,
+  "lastUpdate": 1727180319933,
   "repoUrl": "https://github.com/rolldown/rolldown",
   "entries": {
     "Benchmark": [
@@ -42407,6 +42407,600 @@
           {
             "name": "rome-ts-sourcemap (default)",
             "value": "191.31",
+            "unit": "ms / ops"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "inottn@outlook.com",
+            "name": "inottn",
+            "username": "inottn"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "351d2c77e8b554d9b55b98b71eacc656e6d91a12",
+          "message": "fix: resolve with cwd when context is empty string (#2080)\n\n<!-- Thank you for contributing! -->\n\n### Description\n\nfix #2067\n<!-- Please insert your description here and provide especially info\nabout the \"what\" this PR is solving -->\n\n---------\n\nCo-authored-by: Yunfei <i.heyunfei@gmail.com>",
+          "timestamp": "2024-09-23T21:47:14Z",
+          "tree_id": "233ed72b106cf9349b8f93e1f164b6d44cd3b30b",
+          "url": "https://github.com/rolldown/rolldown/commit/351d2c77e8b554d9b55b98b71eacc656e6d91a12"
+        },
+        "date": 1727128917935,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "threejs10x (default)",
+            "value": "398.36",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-sourcemap (default)",
+            "value": "611.62",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify (default)",
+            "value": "1079.20",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify-sourcemap (default)",
+            "value": "1525.94",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts (default)",
+            "value": "139.07",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts-sourcemap (default)",
+            "value": "206.51",
+            "unit": "ms / ops"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5815228d976a396b5ee02f27a65b0a543d0b206e",
+          "message": "fix:  remove none relative path alias replacement (#2289)\n\n<!-- Thank you for contributing! -->\n\n### Description\n1. Close #2288 \n2. Both webpack and rollup don't support none relative path alias\nreplacement by default\n<!-- Please insert your description here and provide especially info\nabout the \"what\" this PR is solving -->",
+          "timestamp": "2024-09-24T04:09:31Z",
+          "tree_id": "cb0ca94577b81e0c46d6909ff1f4fccd80fadb3d",
+          "url": "https://github.com/rolldown/rolldown/commit/5815228d976a396b5ee02f27a65b0a543d0b206e"
+        },
+        "date": 1727151821256,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "threejs10x (default)",
+            "value": "372.09",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-sourcemap (default)",
+            "value": "583.39",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify (default)",
+            "value": "989.86",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify-sourcemap (default)",
+            "value": "1403.66",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts (default)",
+            "value": "128.42",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts-sourcemap (default)",
+            "value": "186.79",
+            "unit": "ms / ops"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "boshenc@gmail.com",
+            "name": "Boshen",
+            "username": "Boshen"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4f8b2b4ba58c7f841cb8b5bbd0353588f9d2c0db",
+          "message": "chore(rolldown): oxc 0.30.0 (#2263)",
+          "timestamp": "2024-09-24T06:08:20Z",
+          "tree_id": "6ca1178df76953cd81a3831bc0c287ecb320919b",
+          "url": "https://github.com/rolldown/rolldown/commit/4f8b2b4ba58c7f841cb8b5bbd0353588f9d2c0db"
+        },
+        "date": 1727158952386,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "threejs10x (default)",
+            "value": "390.29",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-sourcemap (default)",
+            "value": "608.50",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify (default)",
+            "value": "1122.89",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify-sourcemap (default)",
+            "value": "1532.19",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts (default)",
+            "value": "137.68",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts-sourcemap (default)",
+            "value": "191.93",
+            "unit": "ms / ops"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "66c6fab72a82aad1917b51e6746ec2683666cf30",
+          "message": "chore(esbuild-diff):  refactor with ts (#2290)\n\n<!-- Thank you for contributing! -->\n\n### Description\n1. for better  code completion and maintainability\n\n<!-- Please insert your description here and provide especially info\nabout the \"what\" this PR is solving -->",
+          "timestamp": "2024-09-24T06:49:02Z",
+          "tree_id": "c1eca825fa0ca2aeb1c26b6e23538304272588ee",
+          "url": "https://github.com/rolldown/rolldown/commit/66c6fab72a82aad1917b51e6746ec2683666cf30"
+        },
+        "date": 1727161418832,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "threejs10x (default)",
+            "value": "383.64",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-sourcemap (default)",
+            "value": "581.05",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify (default)",
+            "value": "1072.75",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify-sourcemap (default)",
+            "value": "1488.25",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts (default)",
+            "value": "132.48",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts-sourcemap (default)",
+            "value": "189.52",
+            "unit": "ms / ops"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "2b5aded9b99cfbfbc2f0448d6657908985258eba",
+          "message": "chore(esbuild-diff): top level var rewrite (#2295)\n\n<!-- Thank you for contributing! -->\n\n### Description\n1. related to https://esbuild.github.io/faq/#top-level-var\n2. remove `diff.md` if there is no difference after some trivial rewrite\n<!-- Please insert your description here and provide especially info\nabout the \"what\" this PR is solving -->",
+          "timestamp": "2024-09-24T09:29:42Z",
+          "tree_id": "a0fd6fe57bd05fa7ca16c7419856f0bc1ce80b4f",
+          "url": "https://github.com/rolldown/rolldown/commit/2b5aded9b99cfbfbc2f0448d6657908985258eba"
+        },
+        "date": 1727171050932,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "threejs10x (default)",
+            "value": "396.95",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-sourcemap (default)",
+            "value": "596.84",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify (default)",
+            "value": "1069.03",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify-sourcemap (default)",
+            "value": "1495.23",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts (default)",
+            "value": "139.20",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts-sourcemap (default)",
+            "value": "199.41",
+            "unit": "ms / ops"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui.underfin@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "50fa28433a4cf72d5f112499246ea4d0e37cbe83",
+          "message": "fix: `PluginContext#resolve` should care about `InputOptions#external` (#2307)\n\n<!-- Thank you for contributing! -->\n\n### Description\n\nclose https://github.com/rolldown/rolldown/issues/2071\n\n<!-- Please insert your description here and provide especially info\nabout the \"what\" this PR is solving -->",
+          "timestamp": "2024-09-24T09:34:17Z",
+          "tree_id": "34417f7d9c63bd26d6ea937ea56a6b07ae9e05f6",
+          "url": "https://github.com/rolldown/rolldown/commit/50fa28433a4cf72d5f112499246ea4d0e37cbe83"
+        },
+        "date": 1727171418322,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "threejs10x (default)",
+            "value": "372.65",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-sourcemap (default)",
+            "value": "569.11",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify (default)",
+            "value": "1003.38",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify-sourcemap (default)",
+            "value": "1426.97",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts (default)",
+            "value": "128.71",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts-sourcemap (default)",
+            "value": "185.64",
+            "unit": "ms / ops"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui.underfin@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "35fb04f59c07ce2fae1bd723ebd175aeb698b9dc",
+          "message": "chore: remove ImportGlobPlugin import expression span workaround (#2308)\n\n<!-- Thank you for contributing! -->\n\n### Description\n\nIt already handled at EnsureSpanUniqueness\n\n<!-- Please insert your description here and provide especially info\nabout the \"what\" this PR is solving -->",
+          "timestamp": "2024-09-24T10:44:38Z",
+          "tree_id": "5ae6625fb8e846b549ebe7fac297a71633e0006b",
+          "url": "https://github.com/rolldown/rolldown/commit/35fb04f59c07ce2fae1bd723ebd175aeb698b9dc"
+        },
+        "date": 1727175530116,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "threejs10x (default)",
+            "value": "383.55",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-sourcemap (default)",
+            "value": "592.11",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify (default)",
+            "value": "1050.51",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify-sourcemap (default)",
+            "value": "1478.66",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts (default)",
+            "value": "133.33",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts-sourcemap (default)",
+            "value": "190.71",
+            "unit": "ms / ops"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "7086cmd@gmail.com",
+            "name": "Ethan Goh",
+            "username": "7086cmd"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "6e695339c1b6cb95033e1c6a3ce1948e68c1a03e",
+          "message": "fix: should trim in data url. (#2310)\n\nresolves #2300.",
+          "timestamp": "2024-09-24T10:45:08Z",
+          "tree_id": "72a7db950429c3f3b2b020b93f79c58b647cc2ac",
+          "url": "https://github.com/rolldown/rolldown/commit/6e695339c1b6cb95033e1c6a3ce1948e68c1a03e"
+        },
+        "date": 1727175982329,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "threejs10x (default)",
+            "value": "389.57",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-sourcemap (default)",
+            "value": "599.55",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify (default)",
+            "value": "1050.72",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify-sourcemap (default)",
+            "value": "1486.19",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts (default)",
+            "value": "137.17",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts-sourcemap (default)",
+            "value": "192.67",
+            "unit": "ms / ops"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "71d16fe8998381cb713ae98c509f2351dff9edd5",
+          "message": "fix:  load fallback plugin related issues (#2309)\n\n<!-- Thank you for contributing! -->\n\n### Description\n1. Fixed #2301 \n2. Fixed #2302\n<!-- Please insert your description here and provide especially info\nabout the \"what\" this PR is solving -->",
+          "timestamp": "2024-09-24T10:58:01Z",
+          "tree_id": "3d3b0f978a765650b4152fbcf45f744e4de9d97a",
+          "url": "https://github.com/rolldown/rolldown/commit/71d16fe8998381cb713ae98c509f2351dff9edd5"
+        },
+        "date": 1727177549425,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "threejs10x (default)",
+            "value": "398.78",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-sourcemap (default)",
+            "value": "601.86",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify (default)",
+            "value": "1071.57",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify-sourcemap (default)",
+            "value": "1488.75",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts (default)",
+            "value": "137.03",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts-sourcemap (default)",
+            "value": "192.52",
+            "unit": "ms / ops"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "Yunfei He",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "3847e2b45ff70af59e9ce9356af18c1dd8b430b5",
+          "message": "fix(plugin/replace): set a higher backtrack limit as default value (#2311)\n\n<!-- Thank you for contributing! -->\n\n### Description\n\n<!-- Please insert your description here and provide especially info\nabout the \"what\" this PR is solving -->",
+          "timestamp": "2024-09-24T11:54:29Z",
+          "tree_id": "890b07dfdc2f967783f7eb47dfd8e151580eff45",
+          "url": "https://github.com/rolldown/rolldown/commit/3847e2b45ff70af59e9ce9356af18c1dd8b430b5"
+        },
+        "date": 1727179978554,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "threejs10x (default)",
+            "value": "379.70",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-sourcemap (default)",
+            "value": "569.65",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify (default)",
+            "value": "1001.42",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify-sourcemap (default)",
+            "value": "1423.39",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts (default)",
+            "value": "129.90",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts-sourcemap (default)",
+            "value": "179.65",
+            "unit": "ms / ops"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "7086cmd@gmail.com",
+            "name": "Ethan Goh",
+            "username": "7086cmd"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8b8d7a14a17d554225d5bd4afb4e3d8059161af9",
+          "message": "fix(moduleType/json): should trim the utf-8 bom. (#2312)\n\nresolves #2297.",
+          "timestamp": "2024-09-24T12:00:20Z",
+          "tree_id": "7b575affa8b18a790d1cf8b9d239a2597872a5c0",
+          "url": "https://github.com/rolldown/rolldown/commit/8b8d7a14a17d554225d5bd4afb4e3d8059161af9"
+        },
+        "date": 1727180319921,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "threejs10x (default)",
+            "value": "372.13",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-sourcemap (default)",
+            "value": "573.83",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify (default)",
+            "value": "1019.24",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify-sourcemap (default)",
+            "value": "1429.86",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts (default)",
+            "value": "125.95",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts-sourcemap (default)",
+            "value": "180.86",
             "unit": "ms / ops"
           }
         ]
