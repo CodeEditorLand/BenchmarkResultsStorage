@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 1728143510131,
+  "lastUpdate": 1728324663245,
   "repoUrl": "https://github.com/rolldown/rolldown",
   "entries": {
     "Benchmark": [
@@ -44837,6 +44837,330 @@
           {
             "name": "rome-ts-sourcemap (default)",
             "value": "189.50",
+            "unit": "ms / ops"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "Yunfei He",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e514a0750500e49c89e37e82d31e7f820d617de1",
+          "message": "refactor(rust): remove `ModuleViewFactory` (#2377)\n\n<!-- Thank you for contributing! -->\n\n### Description\n\nIt is a wrong abstraction. No need to unite constructing `EcmaView` and\n`CssView` by `ModuleViewFactory`. They are different things.\n\n<!-- Please insert your description here and provide especially info\nabout the \"what\" this PR is solving -->",
+          "timestamp": "2024-10-07T05:59:27Z",
+          "tree_id": "0e804e89fd3faac12186a49c3d6efbf87d4bf60b",
+          "url": "https://github.com/rolldown/rolldown/commit/e514a0750500e49c89e37e82d31e7f820d617de1"
+        },
+        "date": 1728281615769,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "threejs10x (default)",
+            "value": "381.31",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-sourcemap (default)",
+            "value": "579.07",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify (default)",
+            "value": "1049.82",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify-sourcemap (default)",
+            "value": "1455.24",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts (default)",
+            "value": "129.40",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts-sourcemap (default)",
+            "value": "187.07",
+            "unit": "ms / ops"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "Yunfei He",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c1fdd93f75a0b11f89f5b58a1e590d4ff844f5b4",
+          "message": "refactor(rust): change `Symbols` to `SymbolRefDb` (#2378)\n\n<!-- Thank you for contributing! -->\n\n### Description\n\n`SymbolTable` is already used by oxc. So we will use `XxxDb` style for\nindicate-based data design.\n\n<!-- Please insert your description here and provide especially info\nabout the \"what\" this PR is solving -->",
+          "timestamp": "2024-10-07T06:09:15Z",
+          "tree_id": "12ed214b4965104320dd348065efffa9be9e3ac4",
+          "url": "https://github.com/rolldown/rolldown/commit/c1fdd93f75a0b11f89f5b58a1e590d4ff844f5b4"
+        },
+        "date": 1728282606481,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "threejs10x (default)",
+            "value": "377.22",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-sourcemap (default)",
+            "value": "585.78",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify (default)",
+            "value": "1044.22",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify-sourcemap (default)",
+            "value": "1456.88",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts (default)",
+            "value": "130.00",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts-sourcemap (default)",
+            "value": "187.10",
+            "unit": "ms / ops"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "Yunfei He",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a453461f269a16fb26ee8c94eb86af23d0902ff0",
+          "message": "refactor(rust): add `SymbolRefDbForModule` (#2379)\n\n<!-- Thank you for contributing! -->\n\n### Description\n\n<!-- Please insert your description here and provide especially info\nabout the \"what\" this PR is solving -->",
+          "timestamp": "2024-10-07T06:39:48Z",
+          "tree_id": "042e8c09ccb360c993730990a56eb9637cec7c0c",
+          "url": "https://github.com/rolldown/rolldown/commit/a453461f269a16fb26ee8c94eb86af23d0902ff0"
+        },
+        "date": 1728284185171,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "threejs10x (default)",
+            "value": "371.48",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-sourcemap (default)",
+            "value": "575.77",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify (default)",
+            "value": "1019.62",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify-sourcemap (default)",
+            "value": "1438.84",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts (default)",
+            "value": "127.95",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts-sourcemap (default)",
+            "value": "181.22",
+            "unit": "ms / ops"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "florian.verdonck@outlook.com",
+            "name": "Florian Verdonck",
+            "username": "nojaf"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "305f2d196f6a6a99808f4057f4424f0e773a91db",
+          "message": "chore(typo): wrong description of `-c` option (#2382)\n\n<!-- Thank you for contributing! -->\n\n### Description\n\nAfter looking at the help\n\n```\nbunx rolldown --help\nFast JavaScript/TypeScript bundler in Rust with Rollup-compatible API. (rolldown v0.13.2)                                                                                                                                                                             \n\nUSAGE rolldown -c <config> or rolldown <input> <options>\n                                                                                                                                                                                                                                                                      \nOPTIONS                                                                                                                                                                                                                                                               \n                                                                                                                                                                                                                                                                      \n  --config -c, <filename>     Path to the config file (default: rollup.config.js).   \n```\n\nI noticed that the default filename `rollup.config.js` did not working\nwhen trying `bunx rolldown -c`.",
+          "timestamp": "2024-10-07T12:44:03Z",
+          "tree_id": "5890288de49ad1db5a94cc128dcf876b33a241d9",
+          "url": "https://github.com/rolldown/rolldown/commit/305f2d196f6a6a99808f4057f4424f0e773a91db"
+        },
+        "date": 1728305950585,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "threejs10x (default)",
+            "value": "396.99",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-sourcemap (default)",
+            "value": "611.52",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify (default)",
+            "value": "1060.47",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify-sourcemap (default)",
+            "value": "1495.85",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts (default)",
+            "value": "136.15",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts-sourcemap (default)",
+            "value": "194.21",
+            "unit": "ms / ops"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "Yunfei He",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "d8b07cc139d1d4c55c2f4b2153aa1f0b9310ed1b",
+          "message": "feat(rust): use `SymbolRefDbForModule` while scanning oxc AST (#2380)\n\n<!-- Thank you for contributing! -->\n\n### Description\n\nWe gonna remove `AstSymbols` and use oxc's `SymbolTable`/`Semantic`\ndirectly.\n\n<!-- Please insert your description here and provide especially info\nabout the \"what\" this PR is solving -->",
+          "timestamp": "2024-10-07T16:45:51Z",
+          "tree_id": "fb5bb3228a5ea74bee676db0e9f5df8098d199cc",
+          "url": "https://github.com/rolldown/rolldown/commit/d8b07cc139d1d4c55c2f4b2153aa1f0b9310ed1b"
+        },
+        "date": 1728320432666,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "threejs10x (default)",
+            "value": "378.85",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-sourcemap (default)",
+            "value": "594.42",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify (default)",
+            "value": "1049.22",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify-sourcemap (default)",
+            "value": "1465.41",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts (default)",
+            "value": "132.83",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts-sourcemap (default)",
+            "value": "191.82",
+            "unit": "ms / ops"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "i.heyunfei@gmail.com",
+            "name": "Yunfei He",
+            "username": "hyf0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "167f46a0334a039c30231b691ed016d6bb86c779",
+          "message": "refactor(rust): remove `AstSymbols` and use `SymbolTable` directly (#2381)\n\n<!-- Thank you for contributing! -->\n\n### Description\n\n<!-- Please insert your description here and provide especially info\nabout the \"what\" this PR is solving -->",
+          "timestamp": "2024-10-07T17:37:49Z",
+          "tree_id": "c4d7bcf39551dd74839de9e71da3777a8d870a20",
+          "url": "https://github.com/rolldown/rolldown/commit/167f46a0334a039c30231b691ed016d6bb86c779"
+        },
+        "date": 1728324663229,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "threejs10x (default)",
+            "value": "395.22",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-sourcemap (default)",
+            "value": "611.23",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify (default)",
+            "value": "1068.74",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify-sourcemap (default)",
+            "value": "1485.29",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts (default)",
+            "value": "139.21",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts-sourcemap (default)",
+            "value": "200.85",
             "unit": "ms / ops"
           }
         ]
