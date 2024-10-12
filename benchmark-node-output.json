@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 1728629007687,
+  "lastUpdate": 1728727490568,
   "repoUrl": "https://github.com/rolldown/rolldown",
   "entries": {
     "Benchmark": [
@@ -45701,6 +45701,222 @@
           {
             "name": "rome-ts-sourcemap (default)",
             "value": "184.49",
+            "unit": "ms / ops"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui.underfin@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ec2092c25ed9c63ef20eb0f013ceb7c84cd61cf6",
+          "message": "feat: support basic watch mode (#2396)\n\n<!-- Thank you for contributing! -->\n\n### Description\n\nFixes https://github.com/rolldown/rolldown/issues/2213\n\n<!-- Please insert your description here and provide especially info\nabout the \"what\" this PR is solving -->",
+          "timestamp": "2024-10-11T13:12:02Z",
+          "tree_id": "15db5f6a78d2b5d5a7e0280345ba75b6ed1d14a5",
+          "url": "https://github.com/rolldown/rolldown/commit/ec2092c25ed9c63ef20eb0f013ceb7c84cd61cf6"
+        },
+        "date": 1728653253498,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "threejs10x (default)",
+            "value": "363.87",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-sourcemap (default)",
+            "value": "571.84",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify (default)",
+            "value": "1078.74",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify-sourcemap (default)",
+            "value": "1484.88",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts (default)",
+            "value": "127.83",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts-sourcemap (default)",
+            "value": "181.28",
+            "unit": "ms / ops"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "iwanabethatguy@qq.com",
+            "name": "IWANABETHATGUY",
+            "username": "IWANABETHATGUY"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ccb7689538aa28933f05c34ef7cc9a9beb07ad3c",
+          "message": "chore: enable esbuild glob and importstar_ts (#2408)\n\n<!-- Thank you for contributing! -->\n\n### Description\n\n<!-- Please insert your description here and provide especially info\nabout the \"what\" this PR is solving -->",
+          "timestamp": "2024-10-12T02:42:49Z",
+          "tree_id": "efc879f2c803775bfef462383421f20db43934a1",
+          "url": "https://github.com/rolldown/rolldown/commit/ccb7689538aa28933f05c34ef7cc9a9beb07ad3c"
+        },
+        "date": 1728701881446,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "threejs10x (default)",
+            "value": "388.32",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-sourcemap (default)",
+            "value": "601.70",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify (default)",
+            "value": "1163.71",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify-sourcemap (default)",
+            "value": "1599.67",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts (default)",
+            "value": "132.32",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts-sourcemap (default)",
+            "value": "187.04",
+            "unit": "ms / ops"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "7086cmd@gmail.com",
+            "name": "Ethan Goh",
+            "username": "7086cmd"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "7ab8722caf63f9c44618ab73aecfbca485262b3b",
+          "message": "feat(cli): support simple watch option (#2413)\n\nTrivia: I tried to use `gt submit` but it was rejected.",
+          "timestamp": "2024-10-12T09:42:54Z",
+          "tree_id": "c03d5cfc72ebe49e094416311163e7999d21746c",
+          "url": "https://github.com/rolldown/rolldown/commit/7ab8722caf63f9c44618ab73aecfbca485262b3b"
+        },
+        "date": 1728727070162,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "threejs10x (default)",
+            "value": "381.33",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-sourcemap (default)",
+            "value": "581.55",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify (default)",
+            "value": "1138.37",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify-sourcemap (default)",
+            "value": "1551.03",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts (default)",
+            "value": "128.88",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts-sourcemap (default)",
+            "value": "186.09",
+            "unit": "ms / ops"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "likui.underfin@gmail.com",
+            "name": "underfin",
+            "username": "underfin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "7bea9f1c1725ddc881c3e0d9b4fb656cf0140986",
+          "message": "feat: support watchChange hooks (#2412)\n\n<!-- Thank you for contributing! -->\n\n### Description\n\n<!-- Please insert your description here and provide especially info\nabout the \"what\" this PR is solving -->",
+          "timestamp": "2024-10-12T09:44:08Z",
+          "tree_id": "84e4c3dca80ec7593a6720a99e9bdbb4fc33a0c7",
+          "url": "https://github.com/rolldown/rolldown/commit/7bea9f1c1725ddc881c3e0d9b4fb656cf0140986"
+        },
+        "date": 1728727490552,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "threejs10x (default)",
+            "value": "375.57",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-sourcemap (default)",
+            "value": "592.92",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify (default)",
+            "value": "1124.44",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "threejs10x-minify-sourcemap (default)",
+            "value": "1557.89",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts (default)",
+            "value": "130.41",
+            "unit": "ms / ops"
+          },
+          {
+            "name": "rome-ts-sourcemap (default)",
+            "value": "189.69",
             "unit": "ms / ops"
           }
         ]
